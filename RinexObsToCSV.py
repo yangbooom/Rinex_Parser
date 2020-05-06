@@ -97,7 +97,7 @@ else:
 			writeMode = "a"
 
 		else:
-			print "Unknown argument: {}".format(sys.argv[i])
+			print ("Unknown argument: {}".format(sys.argv[i]))
 			exit(0)
 		i += 1
 	
